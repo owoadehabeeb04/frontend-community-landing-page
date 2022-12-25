@@ -1,0 +1,289 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left:20px;
+
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left:20px;
+    padding-right: 20px;
+}
+Li {
+    list-style-type: none;
+}
+li a {
+      list-style-type: none;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 20PX;
+}
+.btn {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 20px;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 255, 0.79);
+    border: 2px solid blue;
+    border-radius: 2px;
+    color: white;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+.body p {
+    text-align: center;
+    padding: 0px 100px;
+    padding-bottom: 50px;
+    font-weight: 0;
+    color: rgba(0, 0, 0, 0.927);    
+}
+body h2 {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.916);
+}
+body h1 {
+    color: rgba(0, 0, 0, 0.91);
+}
+.header {
+    background-image: url(./IMG-20221225-WA0004.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+.section {
+    color: black;
+    text-align: center;
+}
+.section h1 {
+    color: black;
+}
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section2 img {
+    width: 50%;
+}
+.aside {
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.aside button {
+ background-color: black;
+ color: white;
+ border: 2px solid black;
+ padding-right: 30px;
+ padding-left: 30px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-radius: 15px;
+ cursor: pointer;
+}
+.aside button:hover {
+    background-color: rgba(0, 0, 0, 0.258);
+    border: 3px solid  rgba(0, 0, 0, 0.258);
+}
+.section3 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+.section3 h1 {
+    padding: 0px;
+}
+.section3 p {
+    padding: 10px;
+}
+.sub2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub2 p {
+    color: white;
+}
+.sub2 h1 {
+    color: white;
+    text-align: center;
+}
+.section3 button {
+    color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.258);
+ 
+    border: 3px solid  rgba(0, 0, 0, 0.258);
+    margin-bottom: 20px;
+}
+.sub2 button {
+ background-color: white;
+ color: black;
+ 
+    border: 3px solid  white;
+
+}
+.footer button {
+    background-color: rgb(25, 26, 35);
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid  white;
+    width: 25px;
+    padding-top: 10px;
+    margin: 5px;
+
+}
+.footer {
+background-color: rgb(25, 26, 35);
+padding: 30px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+@media screen and (max-width: 805px) {
+    .section3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .header {
+        background-image: url(./IMG-20221225-WA0004.jpg);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        background-size: auto;
+}
+.header p {
+    font-weight: bold;
+    padding: 5px;
+}
+.header h1 {
+    font-weight: bolder;
+    padding: 5px;
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 700px) {
+    .section2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .section2 img {
+        width: 90%;
+    }
+    .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+}
+@media screen and (max-width: 590px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+            flex-wrap: wrap;
+    
+    }
+    .nav1 {
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 415px)  {
+    .section h1 {
+        padding: 0px;
+        text-align: center;
+    }
+    .section p {
+        padding: 5px;
+        text-align: center;
+    }
+    .section2 p {
+        padding: 10px;
+        text-align: center;
+    }
+    .section3 p {
+        text-align: center;
+        padding: 10px;
+    }
+    .section3 img {
+        width: 100%;
+    }
+    .nav1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left:0px;
+    
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left:0px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+    Li {
+        list-style-type: none;
+    }
+    li a {
+          list-style-type: none;
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        padding-right: 8PX;
+    }
+
+}
